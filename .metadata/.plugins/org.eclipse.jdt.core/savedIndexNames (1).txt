@@ -1,0 +1,19 @@
+INDEX VERSION 1.129+/Volumes/Dados/Google Drive/Eclipse/.metadata/.plugins/org.eclipse.jdt.core
+242260738.index
+646634288.index
+3051944652.index
+152919835.index
+3059193231.index
+2417233569.index
+2786429925.index
+1603671839.index
+3876798007.index
+2115661709.index
+937763053.index
+3961811951.index
+449899765.index
+1456874680.index
+1739499602.index
+2128326306.index
+590046460.index
+699279574.index

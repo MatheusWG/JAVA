@@ -1,0 +1,20 @@
+package br.edu.unoesc;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Exer03 {
+
+	public static void main(String[] args) {
+		List<Integer> numeros = new ArrayList<>();
+		int i = 0;
+		while (true) {
+			i = Teclado.lerInt();
+			if (i == -1)
+				break;
+			numeros.add(i);
+
+		}
+	}
+
+}

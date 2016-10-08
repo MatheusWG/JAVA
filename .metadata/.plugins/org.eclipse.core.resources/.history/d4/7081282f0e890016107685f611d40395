@@ -1,0 +1,50 @@
+package br.edu.unoesc;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Exer02 {
+
+	public static void main(String[] args) {
+		Map<Integer, String> semana = new HashMap<>();
+		semana.put(1, "Domingo");
+		semana.put(2, "Segunda");
+		semana.put(3, "Terça");
+		semana.put(4, "Quarta");
+		semana.put(5, "Quinta");
+		semana.put(6, "Sexta");
+		semana.put(7, "Sábado");
+		System.out.println("Digite o numero do dia da semana: ");
+		int op = Teclado.lerInt();
+		int i = 1;
+		while (i != 0) {
+			switch (op){ 
+			case 0:
+				i=0;
+				break;
+			case 1:
+				System.out.println(semana.get(op));
+				break;
+			case 2:
+				System.out.println(semana.get(op));
+				break;
+			case 3:
+				System.out.println(semana.get(op));
+				break;
+			case 4:
+				System.out.println(semana.get(op));
+				break;
+			case 5:
+				System.out.println(semana.get(op));
+				break;
+			case 6:
+				System.out.println(semana.get(op));
+				break;
+			case 7:
+				System.out.println(semana.get(op));
+				break;
+			}
+		}
+	}
+
+}

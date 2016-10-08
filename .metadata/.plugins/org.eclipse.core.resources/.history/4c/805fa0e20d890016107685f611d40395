@@ -1,0 +1,20 @@
+package br.edu.unoesc;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Exer02 {
+
+	public static void main(String[] args) {
+		Map<Integer, String> semana = new HashMap<>();
+		semana.put(1, "Domingo");
+		semana.put(2, "Segunda");
+		semana.put(3, "Terça");
+		semana.put(4, "Quarta");
+		semana.put(5, "Quinta");
+		semana.put(6, "Sexta");
+		semana.put(7, "Sábado");
+
+	}
+
+}

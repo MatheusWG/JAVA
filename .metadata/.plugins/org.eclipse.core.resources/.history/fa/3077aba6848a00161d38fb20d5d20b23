@@ -1,0 +1,52 @@
+package br.edu.unoesc;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class Exer01 {
+
+	public static void main(String[] args) {
+		//A
+		
+		Map<String, String> pessoas = new HashMap<>();
+		List<String> cpfs = new ArrayList<>();
+		
+		cpfs.add(Teclado.lerString());
+		cpfs.add(Teclado.lerString());
+		cpfs.add(Teclado.lerString());
+		
+		pessoas.put(cpfs.stream().toString(), "João");
+		pessoas.put(cpfs.stream().toString(), "Maria");
+		pessoas.put(cpfs.stream().toString(), "Pedro");
+		
+		
+		//B
+		
+		int i = 1;
+		for(String n : cpfs){
+			System.out.println("CPF "+i+": "+n);
+			i++;
+		}
+		
+		
+		//C
+		
+		System.out.println("Digite o cpf da pessoa");
+		String cpf = Teclado.lerString();
+		if(cpfs.contains(cpf)){
+			System.out.println("Cpf de "+pessoas.get(cpf));
+		}
+		
+		
+		
+		
+		
+		
+		
+	
+
+	}
+
+}

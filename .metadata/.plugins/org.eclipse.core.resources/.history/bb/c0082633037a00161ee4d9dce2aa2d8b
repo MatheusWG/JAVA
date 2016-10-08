@@ -1,0 +1,27 @@
+package br.edu.unoesc;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class Questao01 {
+
+	public static void main(String[] args) {
+		Set<Integer> conjunto = new HashSet<>();
+		List<Integer> lista = new ArrayList<>();
+		conjunto.add(2);
+		conjunto.add(5);
+		conjunto.add(3);
+		conjunto.add(9);
+		conjunto.add(2);
+		conjunto.add(4);
+		conjunto.add(3);
+		conjunto.add(8);
+		conjunto.add(5);
+		
+		lista.add(2);
+
+	}
+
+}

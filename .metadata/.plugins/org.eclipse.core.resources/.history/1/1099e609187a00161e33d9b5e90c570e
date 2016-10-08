@@ -1,0 +1,53 @@
+package br.edu.unoesc;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+public class Desafio01 {
+
+	public static void main(String[] args) {
+		Set<String> produtos = new HashSet<>();
+		List<String> carrinho = new ArrayList<>();
+		Map<String, Integer> estoque = new HashMap<>();
+		
+		int opc=1;
+		String opcbuy = null;
+		while(opc!=0){
+			System.out.println("1 - Cadastrar Produto");
+			System.out.println("2 - Comprar");
+			System.out.println("0 - Fim");
+			opc = Teclado.lerInt();
+			if(opc==0)
+				break;
+			switch(opc){
+			case 1:
+				System.out.println("Digite o nome do produto que deseja adicionar");
+				String opcadd = Teclado.lerString();
+				produtos.add(opcadd);
+				System.out.println("Quantidade:");
+				int quant = Teclado.lerInt();
+				estoque.put(opcadd,quant);
+				break;
+			case 2:
+				Iterator<String> itc = produtos.iterator();
+				while (itc.hasNext()) {
+					System.out.println(itc.next()+" = "+estoque.get(itc.next()));
+				}
+				System.out.println("Digite o nome do produto que deseja comprar");
+				opcbuy = Teclado.lerString();
+				System.out.println("Quantidade: ");
+				int x = Teclado.lerInt();
+				break;
+			}
+		}
+		
+		
+
+	}
+
+}

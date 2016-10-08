@@ -1,0 +1,25 @@
+package br.edu.unoesc;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Questao02 {
+
+	public static void main(String[] args) {
+		Map<Integer,String> mp = new HashMap<>();
+		mp.put(1,"Domingo");
+		mp.put(2,"Segunda-Feira");
+		mp.put(3,"Terça-Feira");
+		mp.put(4,"Quarta-Feira");
+		mp.put(5,"Quinta-Feira");
+		mp.put(6,"Sexta-Feira");
+		mp.put(7,"Sábado");
+		
+		System.out.println("Informe o número do dia");
+		Integer dia = Teclado.sc.nextInt();
+		String texto = mp.get(dia);
+		System.out.println("Dia: "+texto);
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package br.edu.unoesc;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Exer01 {
+
+	public static void main(String[] args) {
+	Map<Integer, String> cpfs = new HashMap<>();
+
+	}
+
+}

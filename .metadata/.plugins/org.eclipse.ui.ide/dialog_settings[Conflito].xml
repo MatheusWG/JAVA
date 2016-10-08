@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\Google Drive\Eclipse"/>
+			<item value="/media/matheus/0F550CE40F550CE4/Eclipse/aula03"/>
+			<item value="/media/matheus/F6DC1B1DDC1AD827/Users/mathe/workspace/aula03"/>
+			<item value="/media/matheus/0F550CE40F550CE4/Eclipse/Aula02"/>
+			<item value="/media/matheus/0F550CE40F550CE4/Eclipse/OlaMundo"/>
+			<item value="/media/matheus/0F550CE40F550CE4/Eclipse/aula01"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>
